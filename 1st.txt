@@ -1,0 +1,36 @@
+import numpy as np(usually np but can be anything other than "np")
+one dimensional array :
+
+a = np.array([1,2,3,4,5] , dtype = 'int8/16/32) DATATYPE CAN BE SPECIFIED HERE TO SAVE UP MEMORY
+
+Two dimensional array([1,2,3,4,5],[5,4,6,8])
+
+any arithmatic operation cann be done if the shape and dimensions of two arrays is same
+
+get dimenssions
+
+a.ndim
+a.shape
+
+a.dtype   DATATYPE OF THE ARRAY
+a.itemsize      GETS SIZE OF AN ELEMENT IN THE ARRAY(MEMORY)
+a.size RETURNS THE NUMBER OF ELEMENTS IN THE ARRAY
+a.itemsize*a.size GIVES THE TOTAL SIZE OF ARRAY(MEMORY)
+OR
+a.nbytes(NUMBER OF BYTES)
+
+GET AN ELEMENT IN AN N DIMENSIONAL ARRAY
+a[row,column]     NNegative numbers can also be used and -n can be interpreted as nth last element
+
+GET A SPECIFIC ROW
+a[row,:]
+SAME GOES FOR COLUMN
+a[:,column]
+
+THIS WAS MOSTLY FOR 2-D ARRAYS
+
+FOR THREE DIMENSIONAL ARRAYS WORK OUTSIDE IN , MEANING THE THREE ARGUMENTS REQUIRED SHOULD BE CALCULATED/FOUND OUT BY MOVING FROM THE OUTERNOST ARRAY AND THEN MAKING IN
+
+
+np.zeros(5)
+CREATES AN ARRAY OF 5 ZEROS 
